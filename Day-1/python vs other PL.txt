@@ -1,0 +1,16 @@
+Python:
+    --> it is dynamically typed PL.
+    --> it is interpreted Pl.. means source code execution happens line by line.. and when if error finds at any line, stops execution, dont excutes rest of code.
+    --> platform independent, write once run anywhere.
+    --> everyting is object here. no primitive datatypes, so Purely OOP lang.
+    --> Tab button of keybord is used for indentation. indentation means block of code.
+    --> python is case sensitive.
+
+C++, java:
+    --> these are statically typed PL.. maens we must need to tell datatype of variable explicitly.
+    --> thess are Compiled PL. means first compiles source code once.. finds compile time errors if any. after that they run complete file as whole (not line by line running of python), and finds runtime errors.
+    --> c++ code is platform/OS dependent.
+    --> java code is platform independent.
+    --> both c++ java has primitive datatypes, so not Pure OOP lnag.
+    --> { } denotes block of code. not indentation.
+    --> both are case sensitive.

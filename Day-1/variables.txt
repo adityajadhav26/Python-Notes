@@ -1,0 +1,9 @@
+in python, as it is dynamically typed PL.
+here we dont need to write Datatype of variable which we do in c,c++,java..
+
+here just as soon as you assign any value to variable, variable is created and memory get allocated.
+for ex.
+ 
+ marks = 98
+ name = "Aditya" etc
+ flag =True    no need to tell datatype of value to variable explicitly...

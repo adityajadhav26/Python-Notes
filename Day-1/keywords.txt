@@ -1,0 +1,3 @@
+Keywords are reserved words in python.
+note they are case sensitive. so must type as it is as they are defined in python.
+Also Keywords can not be used as variable names.
