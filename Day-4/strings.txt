@@ -1,0 +1,34 @@
+Strings in python:
+
+python don't have 2 separate data type for charcater and strings that java have.
+Also python allows indexing on string value, but java dont allow indexing on string.
+
+in python, anything (alphanumeric and symbloas )enclosed in single/ double quotes is a string (text) data type.
+
+    str1 = "this is string"
+    str 2= 'this is also a valid string value '
+    str3 = "this home is Aditya's home.. "
+    str4 = "abc123$%#sdf13"
+
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+'hello' is the same as "hello".
+
+
+You can assign a multiline string to a variable by using three quotes:
+    a = """Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua."""
+    print(a)
+
+    a = ''' Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua.'''
+    print(a)    
+
+--------------------------------------
+Strings in Python are not arrays, but they behave similarly — they’re sequences.
+	•	They are immutable (just like in Java).
+    .   Use list(str) if you want a mutable version of the string.
+Strings support indexing, slicing, iteration — so they feel like arrays but are more powerful and safer.
