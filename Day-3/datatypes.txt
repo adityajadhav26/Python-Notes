@@ -1,0 +1,32 @@
+
+Datatypes: python has only non primitive data types. so it is Pure OOP laang.
+
+to get type of ant data, we use type() method.
+    a= 90
+    print(type(a))  # <class 'int'>
+    # means in short, a is object of class 'int'.
+
+so, everything (variables) are objects in python.
+Variables can store data of different types, and different types can do different things.
+
+-----------------------------------------------------------------------
+Python has the following Non primitive data types built-in by default, in these categories:
+category        class                         stores
+------------    --------------------        -----------------------
+Text Type:	    str                         -- strings (grouped data)
+Numeric Types:	int, float, complex         -- numbers (single data)
+Sequence Types:	list, tuple, range          -- grouped data
+Mapping Type:	dict                        -- grouped data
+Set Types:	    set, frozenset              -- grouped data
+Boolean Type:	bool                        -- True/ False (single data)
+
+Binary Types:	bytes, bytearray, memoryview
+
+None Type:	    NoneType                    -- None (single data)
+-----------------------------------------------------------------------------
+
+****
+
+single data                              grouped data
+-------------------                      ----------------------------
+int,float,complex,bool,None              strings, list,tuple,range, dict, set,froznset.
