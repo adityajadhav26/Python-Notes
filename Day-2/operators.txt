@@ -1,0 +1,108 @@
+python has so many operators, but mostly on day to day basis we use below most:
+arithmetic, comparison & logiacl operators.
+
+
+    1. arithmetic - works on numbers
+    
+    BODMAS rule--
+    () brackets first 
+    then oreder or exponent
+    ** - exponent                       works Right to Left
+        2**3**2    gives 512 how??  
+        2**(3**2)
+        2**9
+        coz is works right to left
+
+    then Division or Multiplaction          Left to Right
+    / - simple Division
+    // -  floor Division
+    % - gives remainder of Division
+    * - product of 2 numbers
+
+    then Add - or Substract                       Left to Right
+
+    + additon
+    - Substract
+------------------------------------------------------------------------------------
+
+    2. comparison operators - these comapres two numbers, & returns True/False only
+        ==      equal to                7==7    True
+        !=      not equal to            7!=7    False
+        <       Less than               4 < 8   True
+        <=      Less than or Equal to   4 <= 8 False 
+        >       greater than             9 > 7   True
+        >=      greater than or equal to    9 >= 9  True
+------------------------------------------------------------------------------------
+
+    3. logical operators : thse works on bool values, and retuns bool value only 
+
+    not    - not operator reverses the truth value of its operand.
+        Expression                  Result
+        not True                    False
+        not False                   True
+        not 0                       True  (because 0 is falsy)
+        not 100                     False (because 100 is truthy)
+        not ""                      True  (empty string is falsy)
+        not "Hi"                    False (non-empty string is truthy)
+        ------------------------------------------------------------------------------------
+
+    and     
+        -  and operator returns the first falsy value it encounters, or the last value if all are truthy values .
+        ex. 
+            print(100 and 200)  → 200
+            print(0 and 200)    → 0
+            print(100 and 0)    → 0
+
+    ------------------------------------------------------------------------------------
+    or 
+        - or operator returns the first truthy value it finds, or the last falsy value if none are truthy values.
+        ex. 
+            print(0 or 200)      # → 200
+            print(100 or 200)    # → 100
+            print(0 or "")       # → '' (both are falsy, returns last one)
+            print("" or 0)       # → 0  
+------------------------------------------------------------------------------------
+4. assignmebt operators-     works Right to left
+            
+        =, **=, /==, //=, %=, *=, +=, -=
+            x =y        assigns value of y into x   
+            x +=y       x= x + y
+            a *= b       a = a*b  etc 
+
+------------------------------------------------------------------------------------
+
+other special operators in python:
+
+       1. "Identity operators" are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
+
+        a = 10
+        b = 10
+        
+        is        print(a is b)          returns True
+        is not       print(a is not b)       False 
+    ------------------------------------------------------------------------------------
+
+    2.  Membership operators are used to test if a sequence is presented in an object.
+        in, not in
+        
+        mylist =[10, 20,30,40,50]
+        print(10 in mylist)     # True
+        print(80 in mylist)     # False
+        print(80 not in mylist)     # True
+------------------------------------------------------------------------------------
+
+Truthy values:
+    Any string is True, except empty strings.
+    Any number is True, except 0.
+    Any list, tuple, set, and dictionary are True, except empty ones.
+------------------------------------------------------------------------------------
+
+Falsy values that afre False
+    empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
+------------------------------------------------------------------------------------
+
+highest precedence is arithmetic(BODMAS), then comparion, then Logical(not, and, or).
+
+**
+Note, not related to python only, in general topic:
+         Both comparison and logical operators are heavily used in both if/else blocks and loops The logical operators help combine multiple comparisons, while comparison operators do the actual condition checks.
