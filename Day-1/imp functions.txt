@@ -1,0 +1,17 @@
+1. print() with f string.
+    name= "Aditya"
+    print(f"welcome {name} !!")
+
+2. type()- tells data type of variable
+
+    print( type(name))  # class 'str'
+3. id (variable-name)    - tells memory location or  address of variable
+
+4. len( grouped data type variable like list, strings) -- tels count of total numbers of   element in a grouped data type variabel
+
+5. isinstance() - return bool value True or False
+
+6. input() -- takes input from keyboard as String only, we convert into int/ float.
+
+   num1 =  int(input())
+    num2 = float(input())
